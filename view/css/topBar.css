@@ -1,0 +1,97 @@
+@media screen and (min-width: 1000px) {
+
+  .targetBar {
+    min-height: 100px;
+    max-height: 100px;
+    background-color: #dbf9ff;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .logo {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  #GrillBerTitle {
+    padding-bottom: 0px;
+  }
+
+  .search {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+    width: 35%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  #searchTextBox {
+    display: inline;
+    width: 85%;
+    height: 34px;
+    padding-left: 5px;
+    border: none;
+  }
+
+  #searchTextBox:focus {
+    outline: none;
+  }
+
+  #searchBarButton {
+    display: inline;
+    vertical-align: top;
+    background: url("../img/search-icon-md.png");
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 34px;
+    width: 34px;
+    margin-left: -2%;
+    cursor: pointer;
+    border: none;
+  }
+
+  #searchBarButton:hover {
+    opacity: 0.9;
+  }
+
+  .login {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 40px;
+  }
+
+  .login a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .login a:hover {
+    text-decoration: underline;
+  }
+
+  #targetBarLogo {
+    float: left;
+  }
+
+  #GrillBerTitle {
+    float: left;
+  }
+
+  #loginLink {
+    padding-left: 10px;
+    border-left: 1px solid black;
+  }
+
+  #registerLink {
+    padding-right: 5px;
+  }
+
+}

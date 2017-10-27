@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@media screen and (min-width: 1000px) {
+
+  .targetBar {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+  }
+
+  #GrillBerTitle {
+    font-weight: normal;
+    color: green;
+  }
+
+  #underLogoText {
+    font-style: italic;
+    font-size: 13px;
+  }
+
+  #searchTextBox {
+    font-size: 19px;
+  }
+
+  .navigation {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+  }
+
+  .navigation a {
+    color: white;
+  }
+
+  .jumbo {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .title {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .mainContent {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .footer {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+}

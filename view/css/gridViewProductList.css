@@ -1,0 +1,68 @@
+@media screen and (min-width: 1000px) {
+
+  .singleProduct {
+    position: relative;
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .productPrice {
+    float: right;
+    width: 40%;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .productImageDiv {
+    width: 100%;
+  }
+
+  .productImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .quickInfoHover {
+    position: relative;
+    color: white;
+    background-color: grey;
+    opacity: 0.6;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+
+  .quickInfoHover:hover {
+    cursor: pointer;
+    background-color: rgba(200, 200, 200, 0.9);
+    color: black;
+  }
+
+  .quickInfoPseudo {
+    position: relative;
+  }
+
+  .quickInfo {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(200, 200, 200, 0.9);
+    overflow: hidden;
+    z-index: 1;
+    bottom: 5px;
+  }
+
+  #priceInterval {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 1000px) {
+
+  .mainContent {
+    width: 100%;
+  }
+
+  .title {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+}
