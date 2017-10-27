@@ -254,12 +254,9 @@
                 <p>Quick information 6 grill.</p>
               </div>
             </div>
-            <div class="quickInfoPseudo">
-            <p id="6quickInfoHover" class="quickInfoHover">Quick Info</p>
             <div class="productDescription">
               <a href="#">Traeger Bronson 20</a>
             </div>
-          </div>
         </div>
 
       </div>

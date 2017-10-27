@@ -1,7 +1,55 @@
 @media screen and (min-width: 600px) {
 
   .singleProduct {
+    display: block;
+    position: relative;
+    width: 25%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .productPrice {
+    float: right;
+    width: 50%;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .productImageDiv {
+    width: 100%;
+  }
+
+  .productImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .quickInfoHover {
     display: none;
+  }
+
+  .quickInfoHover:hover {
+    display: none;
+  }
+
+  .quickInfoPseudo {
+    display: none;
+  }
+
+  .quickInfo {
+    display: none;
+  }
+
+  #priceInterval {
+    font-size: 12px;
+    font-style: italic;
   }
 
 }
@@ -9,6 +57,7 @@
 @media screen and (min-width: 1000px) {
 
   .singleProduct {
+    display: block;
     position: relative;
     width: 20%;
     height: auto;
