@@ -141,6 +141,14 @@
     width: 40%;
   }
 
+  .leftSideSlider h1 {
+    font-size: 30px;
+  }
+
+  .leftSideSlider a h1 {
+    font-size: 25px;
+  }
+
   .rightSideSlider {
     float: right;
     max-width: 60%;

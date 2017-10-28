@@ -35,10 +35,6 @@
     display: none;
   }
 
-  .quickInfoHover:hover {
-    display: none;
-  }
-
   .quickInfoPseudo {
     display: none;
   }
@@ -88,6 +84,7 @@
   }
 
   .quickInfoHover {
+    display: block;
     position: relative;
     color: white;
     background-color: grey;
@@ -105,10 +102,12 @@
   }
 
   .quickInfoPseudo {
+    display: block;
     position: relative;
   }
 
   .quickInfo {
+    display: block;
     position: absolute;
     width: 100%;
     background-color: rgba(200, 200, 200, 0.9);

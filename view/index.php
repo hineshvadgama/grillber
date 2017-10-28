@@ -92,6 +92,7 @@
         </div>
 
       </div>
+
       <div class="jumbo">
         <div class="sliderContainer">
           <div class="innerSliderContainer">
@@ -140,123 +141,125 @@
           </div>
         </div>
       </div>
+
       <div class="mainContent">
 
         <div class="title">
           <h1>Popular Items</h1>
         </div>
 
-          <div class="singleProduct">
-            <div class="productPrice">
-              <p id="price">£20</p>
-              <p id="priceInterval">For the day</p>
-            </div>
-            <div class="productImageDiv">
-              <img class="productImage" src="img/example-grill-1.jpg" alt="one of the grills">
-            </div>
-            <div class="quickInfoPseudo">
-              <div id="1quickInfo" class="quickInfo">
-                <p>Quick information 1 grill with more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text.</p>
-              </div>
-            </div>
-            <p id="1quickInfoHover" class="quickInfoHover">Quick Info</p>
-            <div class="productDescription">
-              <a href="#">Jumbuck 43cm Kettle Charcoal BBQ - Black<a>
+        <div class="singleProduct">
+          <div class="productPrice">
+            <p id="price">£20</p>
+            <p id="priceInterval">For the day</p>
+          </div>
+          <div class="productImageDiv">
+            <img class="productImage" src="img/example-grill-1.jpg" alt="one of the grills">
+          </div>
+          <div class="quickInfoPseudo">
+            <div id="1quickInfo" class="quickInfo">
+              <p>Quick information 1 grill with more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text.</p>
             </div>
           </div>
+          <p id="1quickInfoHover" class="quickInfoHover">Quick Info</p>
+          <div class="productDescription">
+            <a href="#">Jumbuck 43cm Kettle Charcoal BBQ - Black<a>
+          </div>
+        </div>
 
-          <div class="singleProduct">
-            <div class="productPrice">
-              <p id="price">£15</p>
-              <p id="priceInterval">For the day</p>
-            </div>
-            <div class="productImageDiv">
-              <img class="productImage" src="img/example-grill-2.jpg" alt="one of the grills">
-            </div>
-            <div class="quickInfoPseudo">
-              <div id="2quickInfo" class="quickInfo">
-                <p>Quick information 2 grill.</p>
-              </div>
-            </div>
-            <p id="2quickInfoHover" class="quickInfoHover">Quick Info</p>
-            <div class="productDescription">
-              <a href="#">Jumbuck 43cm Kettle Charcoal BBQ - Black</a>
+        <div class="singleProduct">
+          <div class="productPrice">
+            <p id="price">£15</p>
+            <p id="priceInterval">For the day</p>
+          </div>
+          <div class="productImageDiv">
+            <img class="productImage" src="img/example-grill-2.jpg" alt="one of the grills">
+          </div>
+          <div class="quickInfoPseudo">
+            <div id="2quickInfo" class="quickInfo">
+              <p>Quick information 2 grill.</p>
             </div>
           </div>
+          <p id="2quickInfoHover" class="quickInfoHover">Quick Info</p>
+          <div class="productDescription">
+            <a href="#">Jumbuck 43cm Kettle Charcoal BBQ - Black</a>
+          </div>
+        </div>
 
-          <div class="singleProduct">
-            <div class="productPrice">
-              <p id="price">£25</p>
-              <p id="priceInterval">For the day</p>
-            </div>
-            <div class="productImageDiv">
-              <img class="productImage" src="img/example-grill-3.jpg" alt="one of the grills">
-            </div>
-            <div class="quickInfoPseudo">
-              <div id="3quickInfo" class="quickInfo">
-                <p>Quick information 3 grill.</p>
-              </div>
-            </div>
-            <p id="3quickInfoHover" class="quickInfoHover">Quick Info</p>
-            <div class="productDescription">
-              <a href="#">Jumbuck 43cm Kettle Charcoal BBQ - Black</a>
+        <div class="singleProduct">
+          <div class="productPrice">
+            <p id="price">£25</p>
+            <p id="priceInterval">For the day</p>
+          </div>
+          <div class="productImageDiv">
+            <img class="productImage" src="img/example-grill-3.jpg" alt="one of the grills">
+          </div>
+          <div class="quickInfoPseudo">
+            <div id="3quickInfo" class="quickInfo">
+              <p>Quick information 3 grill.</p>
             </div>
           </div>
+          <p id="3quickInfoHover" class="quickInfoHover">Quick Info</p>
+          <div class="productDescription">
+            <a href="#">Jumbuck 43cm Kettle Charcoal BBQ - Black</a>
+          </div>
+        </div>
 
-          <div class="singleProduct">
-            <div class="productPrice">
-              <p id="price">£25</p>
-              <p id="priceInterval">For the day</p>
-            </div>
-            <div class="productImageDiv">
-              <img class="productImage" src="img/example-grill-4.jpg" alt="Jumbuck 43cm Kettle Charcoal BBQ - Black">
-            </div>
-            <div class="quickInfoPseudo">
-              <div id="4quickInfo" class="quickInfo">
-                <p>Quick information 4 grill.</p>
-              </div>
-            </div>
-            <p id="4quickInfoHover" class="quickInfoHover">Quick Info</p>
-            <div class="productDescription">
-              <a href="#">Jumbuck 43cm Kettle Charcoal BBQ - Black</a>
+        <div class="singleProduct">
+          <div class="productPrice">
+            <p id="price">£25</p>
+            <p id="priceInterval">For the day</p>
+          </div>
+          <div class="productImageDiv">
+            <img class="productImage" src="img/example-grill-4.jpg" alt="Jumbuck 43cm Kettle Charcoal BBQ - Black">
+          </div>
+          <div class="quickInfoPseudo">
+            <div id="4quickInfo" class="quickInfo">
+              <p>Quick information 4 grill.</p>
             </div>
           </div>
+          <p id="4quickInfoHover" class="quickInfoHover">Quick Info</p>
+          <div class="productDescription">
+            <a href="#">Jumbuck 43cm Kettle Charcoal BBQ - Black</a>
+          </div>
+        </div>
 
-          <div class="singleProduct">
-            <div class="productPrice">
-              <p id="price">£50</p>
-              <p id="priceInterval">For the day</p>
-            </div>
-            <div class="productImageDiv">
-              <img class="productImage" src="img/example-grill-5.jpg" alt="Char-Broil Performance T365 3 Burner with Side Burner Gas BBQ - Silver">
-            </div>
-            <div class="quickInfoPseudo">
-              <div id="5quickInfo" class="quickInfo">
-                <p>Quick information 5 grill.</p>
-              </div>
-            </div>
-            <p id="5quickInfoHover" class="quickInfoHover">Quick Info</p>
-            <div class="productDescription">
-              <a href="#">Char-Broil Performance T365 3 Burner with Side Burner Gas BBQ - Silver</a>
+        <div class="singleProduct">
+          <div class="productPrice">
+            <p id="price">£50</p>
+            <p id="priceInterval">For the day</p>
+          </div>
+          <div class="productImageDiv">
+            <img class="productImage" src="img/example-grill-5.jpg" alt="Char-Broil Performance T365 3 Burner with Side Burner Gas BBQ - Silver">
+          </div>
+          <div class="quickInfoPseudo">
+            <div id="5quickInfo" class="quickInfo">
+              <p>Quick information 5 grill.</p>
             </div>
           </div>
+          <p id="5quickInfoHover" class="quickInfoHover">Quick Info</p>
+          <div class="productDescription">
+            <a href="#">Char-Broil Performance T365 3 Burner with Side Burner Gas BBQ - Silver</a>
+          </div>
+        </div>
 
-          <div class="singleProduct">
-            <div class="productPrice">
-              <p id="price">£20</p>
-              <p id="priceInterval">For the day</p>
+        <div class="singleProduct">
+          <div class="productPrice">
+            <p id="price">£20</p>
+            <p id="priceInterval">For the day</p>
+          </div>
+          <div class="productImageDiv">
+            <img class="productImage" src="img/example-grill-6.jpg" alt="Traeger Bronson 20">
+          </div>
+          <div class="quickInfoPseudo">
+            <div id="6quickInfo" class="quickInfo">
+              <p>Quick information 6 grill.</p>
             </div>
-            <div class="productImageDiv">
-              <img class="productImage" src="img/example-grill-6.jpg" alt="Traeger Bronson 20">
-            </div>
-            <div class="quickInfoPseudo">
-              <div id="6quickInfo" class="quickInfo">
-                <p>Quick information 6 grill.</p>
-              </div>
-            </div>
-            <div class="productDescription">
-              <a href="#">Traeger Bronson 20</a>
-            </div>
+          </div>
+          <p id="6quickInfoHover" class="quickInfoHover">Quick Info</p>
+          <div class="productDescription">
+            <a href="#">Traeger Bronson 20</a>
+          </div>
         </div>
 
       </div>
