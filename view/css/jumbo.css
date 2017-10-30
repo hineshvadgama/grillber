@@ -2,13 +2,13 @@
 
   .jumbo {
     display: block;
-    max-height: 250px;
+    height: 250px;
   }
 
   .sliderContainer {
     position: relative;
     background-image: url("../img/jumbo-background.png");
-    background-size: 100%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 250px;
@@ -67,8 +67,12 @@
   }
 
   .jumboImage {
-    max-height: 250px;
+    max-height: 200px;
     max-width: 100%;
+  }
+
+  .rightSideSlider img {
+    max-height: 250px;
   }
 
   .jumboPrice {
@@ -92,12 +96,13 @@
 
   .jumbo {
     display: block;
-    max-height: 400px;
+    height: 400px;
   }
 
   .sliderContainer {
     position: relative;
     background-image: url("../img/jumbo-background.png");
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 400px;
@@ -132,7 +137,7 @@
   .translucentBox {
     margin-left: 20%;
     width: 60%;
-    height: 398px;
+    height: 400px;
     background-color:rgba(255, 255, 255, 0.3);
     text-align: left;
   }
@@ -158,6 +163,10 @@
   .jumboImage {
     max-height: 350px;
     max-width: 100%;
+  }
+
+  .rightSideSlider img {
+    max-height: 400px;
   }
 
   .jumboPrice {

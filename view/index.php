@@ -12,9 +12,12 @@
     <link rel="stylesheet" href="css/mainContent.css">
     <link rel="stylesheet" href="css/gridViewProductList.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="../jquery-3.2.1.js"></script>
+    <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script> -->
+    <link rel="stylesheet" href="../jquery-ui-1.12.1.custom/jquery-ui.css">
+    <script src="../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
     <script src="js/jumboFunctions.js"></script>
     <script src="js/singleProductFunctions.js"></script>
   </head>
