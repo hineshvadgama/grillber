@@ -1,4 +1,44 @@
+.navigation {
+  display: none;
+}
+
+.mobileGrillsDropDown {
+  display: none;
+}
+
+.mobileGardenFurnitureDropDown {
+  display: none;
+}
+
+.mobileNavigation {
+  display: none;
+  background-color: #dbf9ff;
+}
+
+.mobileNavigationDropDownHeading {
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid green;
+}
+
+.mobileNavigation ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid green;
+}
+
+.mobileNavigation a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 600px) {
+
+  .mobileNavigation {
+    display: none;
+  }
 
   .navigation {
     display: block;

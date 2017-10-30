@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+.targetBar {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mobileNavigation {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media screen and (min-width: 600px) {
 
   .targetBar {

@@ -20,6 +20,7 @@
     <script src="../jquery-ui-1.12.1.custom/jquery-ui.js"></script>
     <script src="js/jumboFunctions.js"></script>
     <script src="js/singleProductFunctions.js"></script>
+    <script src="js/mobileNavigation.js"></script>
   </head>
   <body>
     <div class="container">
@@ -33,6 +34,12 @@
           <p id="underLogoText">Hire a grill today!</p>
         </div>
 
+        <div class="hamburger">
+          <div class="hamburgerLine" id="hamburgerTopLine"></div>
+          <div class="hamburgerLine"></div>
+          <div class="hamburgerLine"></div>
+        </div>
+
         <div class="search">
           <form class="searchBar" action="index.php" method="post">
             <input id="searchTextBox" type="text" name="searchText" value="" placeholder="Search Grillber">
@@ -44,6 +51,29 @@
           <a id="registerLink" href="index.php">Register</a>
           <a id="loginLink" href="index.php">Login</a>
         </div>
+
+      </div>
+
+      <div class="mobileNavigation">
+
+        <h4 class="mobileNavigationDropDownHeading" id="grillDropDownToggle">Grills</h4>
+        <ul class="mobileGrillsDropDown">
+          <a href="#"><li>All</li></a>
+          <a href="#"><li>Gas</li></a>
+          <a href="#"><li>Charcoal</li></a>
+          <a href="#"><li>Electric</li></a>
+        </ul>
+
+        <h4 class="mobileNavigationDropDownHeading" id="gardenFurnitureDropDownToggle">Garden Furniture</h4>
+        <ul class="mobileGardenFurnitureDropDown">
+          <a href="#"><li>All</li></a>
+          <a href="#"><li>Tables</li></a>
+          <a href="#"><li>Seating</li></a>
+          <a href="#"><li>Umbrellas</li></a>
+          <a href="#"><li>Gazebos</li></a>
+        </ul>
+
+        <a href="#"><h4 class="mobileNavigationDropDownHeading">Turf</h4></a>
 
       </div>
 
