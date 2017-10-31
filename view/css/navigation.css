@@ -19,12 +19,14 @@
   cursor: pointer;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 5px;
   border-bottom: 1px solid green;
 }
 
 .mobileNavigation ul li {
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 5px;
   border-bottom: 1px solid green;
 }
 
@@ -32,6 +34,47 @@
   cursor: pointer;
   color: black;
   text-decoration: none;
+}
+
+.mobileSearch {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  border-bottom: 1px solid green;
+}
+
+#mobileSearchTextBox {
+  display: inline;
+  width: 85%;
+  height: 25px;
+  padding-left: 5px;
+  border: none;
+}
+
+#mobileSearchTextBox:focus {
+  outline: none;
+}
+
+#mobileSearchBarButton {
+  display: inline;
+  vertical-align: top;
+  background: url("../img/search-icon-md.png");
+  background-color: white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 25px;
+  margin-left: -2%;
+  cursor: pointer;
+  border: none;
+}
+
+#mobileSearchBarButton:hover {
+  opacity: 0.9;
+}
+
+#mobileSearchBarButton:focus {
+  outline: none;
 }
 
 @media screen and (min-width: 600px) {

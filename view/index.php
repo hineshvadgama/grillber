@@ -58,22 +58,30 @@
 
         <h4 class="mobileNavigationDropDownHeading" id="grillDropDownToggle">Grills</h4>
         <ul class="mobileGrillsDropDown">
-          <a href="#"><li>All</li></a>
-          <a href="#"><li>Gas</li></a>
-          <a href="#"><li>Charcoal</li></a>
-          <a href="#"><li>Electric</li></a>
+          <a href="#"><li> - All</li></a>
+          <a href="#"><li> - Gas</li></a>
+          <a href="#"><li> - Charcoal</li></a>
+          <a href="#"><li> - Electric</li></a>
         </ul>
 
         <h4 class="mobileNavigationDropDownHeading" id="gardenFurnitureDropDownToggle">Garden Furniture</h4>
         <ul class="mobileGardenFurnitureDropDown">
-          <a href="#"><li>All</li></a>
-          <a href="#"><li>Tables</li></a>
-          <a href="#"><li>Seating</li></a>
-          <a href="#"><li>Umbrellas</li></a>
-          <a href="#"><li>Gazebos</li></a>
+          <a href="#"><li> - All</li></a>
+          <a href="#"><li> - Tables</li></a>
+          <a href="#"><li> - Seating</li></a>
+          <a href="#"><li> - Umbrellas</li></a>
+          <a href="#"><li> - Gazebos</li></a>
         </ul>
 
         <a href="#"><h4 class="mobileNavigationDropDownHeading">Turf</h4></a>
+        <a href="#"><h4 class="mobileNavigationDropDownHeading">Login</h4></a>
+
+        <div class="mobileSearch">
+          <form class="searchBar" action="index.php" method="post">
+            <input id="mobileSearchTextBox" type="text" name="searchText" value="" placeholder="Search Grillber">
+            <input id="mobileSearchBarButton" type="submit" name="searchButton" value="">
+          </form>
+        </div>
 
       </div>
 

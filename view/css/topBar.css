@@ -131,6 +131,10 @@
     opacity: 0.9;
   }
 
+  #searchBarButton:focus {
+    outline: none;
+  }
+
   .login {
     display: inline-block;
     vertical-align: top;
@@ -237,6 +241,10 @@
 
   #searchBarButton:hover {
     opacity: 0.9;
+  }
+
+  #searchBarButton:focus {
+    outline: none;
   }
 
   .login {
