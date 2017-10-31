@@ -12,6 +12,10 @@
   font-size: 15px;
 }
 
+.title {
+  font-family: 'Open Sans', sans-serif;
+}
+
 @media screen and (min-width: 600px) {
 
   .targetBar {

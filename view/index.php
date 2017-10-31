@@ -56,25 +56,33 @@
 
       <div class="mobileNavigation">
 
-        <h4 class="mobileNavigationDropDownHeading" id="grillDropDownToggle">Grills</h4>
+        <div class="headingArrow" id="grillDropDownToggle">
+          <h4 class="mobileNavigationDropDownHeading">Grills</h4>
+          <div class="dropDownArrow" id="grillDropDownArrow"></div>
+        </div>
+
         <ul class="mobileGrillsDropDown">
-          <a href="#"><li> - All</li></a>
-          <a href="#"><li> - Gas</li></a>
-          <a href="#"><li> - Charcoal</li></a>
-          <a href="#"><li> - Electric</li></a>
+          <a href="#"><li>&nbsp &nbsp- All</li></a>
+          <a href="#"><li>&nbsp &nbsp- Gas</li></a>
+          <a href="#"><li>&nbsp &nbsp- Charcoal</li></a>
+          <a href="#"><li>&nbsp &nbsp- Electric</li></a>
         </ul>
 
-        <h4 class="mobileNavigationDropDownHeading" id="gardenFurnitureDropDownToggle">Garden Furniture</h4>
+        <div class="headingArrow" id="gardenFurnitureDropDownToggle">
+          <h4 class="mobileNavigationDropDownHeading">Garden Furniture</h4>
+          <div class="dropDownArrow" id="gardenFurnitureDropDownArrow"></div>
+        </div>
+
         <ul class="mobileGardenFurnitureDropDown">
-          <a href="#"><li> - All</li></a>
-          <a href="#"><li> - Tables</li></a>
-          <a href="#"><li> - Seating</li></a>
-          <a href="#"><li> - Umbrellas</li></a>
-          <a href="#"><li> - Gazebos</li></a>
+          <a href="#"><li>&nbsp &nbsp- All</li></a>
+          <a href="#"><li>&nbsp &nbsp- Tables</li></a>
+          <a href="#"><li>&nbsp &nbsp- Seating</li></a>
+          <a href="#"><li>&nbsp &nbsp- Umbrellas</li></a>
+          <a href="#"><li>&nbsp &nbsp- Gazebos</li></a>
         </ul>
 
-        <a href="#"><h4 class="mobileNavigationDropDownHeading">Turf</h4></a>
-        <a href="#"><h4 class="mobileNavigationDropDownHeading">Login</h4></a>
+        <div class="headingArrow"><a href="#"><h4 class="mobileNavigationDropDownHeading">Turf</h4></a></div>
+        <div class="headingArrow"><a href="#"><h4 class="mobileNavigationDropDownHeading">Login</h4></a></div>
 
         <div class="mobileSearch">
           <form class="searchBar" action="index.php" method="post">
@@ -194,9 +202,11 @@
             <p id="price">£20</p>
             <p id="priceInterval">For the day</p>
           </div>
-          <div class="productImageDiv">
-            <img class="productImage" src="img/example-grill-1.jpg" alt="one of the grills">
-          </div>
+          <a href="#">
+            <div class="productImageDiv">
+              <img class="productImage" src="img/example-grill-1.jpg" alt="one of the grills">
+            </div>
+          </a>
           <div class="quickInfoPseudo">
             <div id="1quickInfo" class="quickInfo">
               <p>Quick information 1 grill with more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text and some more text.</p>
@@ -213,9 +223,11 @@
             <p id="price">£15</p>
             <p id="priceInterval">For the day</p>
           </div>
-          <div class="productImageDiv">
-            <img class="productImage" src="img/example-grill-2.jpg" alt="one of the grills">
-          </div>
+          <a href="#">
+            <div class="productImageDiv">
+              <img class="productImage" src="img/example-grill-2.jpg" alt="one of the grills">
+            </div>
+          </a>
           <div class="quickInfoPseudo">
             <div id="2quickInfo" class="quickInfo">
               <p>Quick information 2 grill.</p>
@@ -232,9 +244,11 @@
             <p id="price">£25</p>
             <p id="priceInterval">For the day</p>
           </div>
-          <div class="productImageDiv">
-            <img class="productImage" src="img/example-grill-3.jpg" alt="one of the grills">
-          </div>
+          <a href="#">
+            <div class="productImageDiv">
+              <img class="productImage" src="img/example-grill-3.jpg" alt="one of the grills">
+            </div>
+          </a>
           <div class="quickInfoPseudo">
             <div id="3quickInfo" class="quickInfo">
               <p>Quick information 3 grill.</p>
@@ -251,9 +265,11 @@
             <p id="price">£25</p>
             <p id="priceInterval">For the day</p>
           </div>
-          <div class="productImageDiv">
-            <img class="productImage" src="img/example-grill-4.jpg" alt="Jumbuck 43cm Kettle Charcoal BBQ - Black">
-          </div>
+          <a href="#">
+            <div class="productImageDiv">
+              <img class="productImage" src="img/example-grill-4.jpg" alt="Jumbuck 43cm Kettle Charcoal BBQ - Black">
+            </div>
+          </a>
           <div class="quickInfoPseudo">
             <div id="4quickInfo" class="quickInfo">
               <p>Quick information 4 grill.</p>
@@ -270,9 +286,11 @@
             <p id="price">£50</p>
             <p id="priceInterval">For the day</p>
           </div>
-          <div class="productImageDiv">
-            <img class="productImage" src="img/example-grill-5.jpg" alt="Char-Broil Performance T365 3 Burner with Side Burner Gas BBQ - Silver">
-          </div>
+          <a href="#">
+            <div class="productImageDiv">
+              <img class="productImage" src="img/example-grill-5.jpg" alt="Char-Broil Performance T365 3 Burner with Side Burner Gas BBQ - Silver">
+            </div>
+          </a>
           <div class="quickInfoPseudo">
             <div id="5quickInfo" class="quickInfo">
               <p>Quick information 5 grill.</p>
@@ -289,9 +307,11 @@
             <p id="price">£20</p>
             <p id="priceInterval">For the day</p>
           </div>
-          <div class="productImageDiv">
-            <img class="productImage" src="img/example-grill-6.jpg" alt="Traeger Bronson 20">
-          </div>
+          <a href="#">
+            <div class="productImageDiv">
+              <img class="productImage" src="img/example-grill-6.jpg" alt="Traeger Bronson 20">
+            </div>
+          </a>
           <div class="quickInfoPseudo">
             <div id="6quickInfo" class="quickInfo">
               <p>Quick information 6 grill.</p>

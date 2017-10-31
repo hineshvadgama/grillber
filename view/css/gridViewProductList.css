@@ -1,3 +1,56 @@
+.singleProduct {
+  display: none;
+  position: relative;
+  width: 45%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.productPrice {
+  float: right;
+  width: 50%;
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.productImageDiv {
+  width: 100%;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+}
+
+.quickInfoHover {
+  display: none;
+}
+
+.quickInfoPseudo {
+  display: none;
+}
+
+.quickInfo {
+  display: none;
+}
+
+#priceInterval {
+  font-size: 10px;
+  font-style: italic;
+}
+
+.productDescription {
+  text-align: left;
+}
+
 @media screen and (min-width: 600px) {
 
   .singleProduct {
@@ -7,7 +60,8 @@
     height: auto;
     display: inline-block;
     vertical-align: top;
-    margin-left: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -48,6 +102,10 @@
     font-style: italic;
   }
 
+  .productDescription {
+    text-align: left;
+  }
+
 }
 
 @media screen and (min-width: 1000px) {
@@ -59,7 +117,8 @@
     height: auto;
     display: inline-block;
     vertical-align: top;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 50px;
     margin-bottom: 50px;
   }
